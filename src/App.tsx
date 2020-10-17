@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { ThemeProvider } from 'styled-components';
+import { defaultTheme } from './Styleguide/theme';
+
 import {
   Text,
   Button,
@@ -11,7 +14,7 @@ import GlobalStyle from './styles/styles';
 
 function App() {
   return (
-    <>
+    <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
       {/* <Text /> */}
       {/* <Button /> */}
@@ -22,7 +25,7 @@ function App() {
         description="Mochi is amazing company"
       /> */}
       <ButtonPill />
-    </>
+    </ThemeProvider>
   );
 }
 
