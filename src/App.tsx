@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Text, Button } from './components';
+import { Text, Button, ButtonProps } from './components';
 import GlobalStyle from './styles/styles';
 
 function App() {
@@ -8,7 +8,8 @@ function App() {
     <>
       <GlobalStyle />
       {/* <Text /> */}
-      <Button />
+      {/* <Button /> */}
+      <ButtonProps />
     </>
   );
 }
