@@ -1,5 +1,5 @@
-export { default as Text } from './Text';
-export { default as Button } from './Button';
-export { default as ButtonProps } from './ButtonProps';
-export { default as Card } from './Card';
-export { default as ButtonPill } from './ButtonPill';
+export { default as Text } from './styled-components/Text';
+export { default as Button } from './styled-components/Button';
+export { default as ButtonProps } from './styled-components/ButtonProps';
+export { default as Card } from './styled-components/Card';
+export { default as ButtonPill } from './styled-components/ButtonPill';
