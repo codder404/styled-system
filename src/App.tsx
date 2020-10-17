@@ -8,7 +8,8 @@ import {
   Button,
   ButtonProps,
   ButtonPill,
-  Card
+  Card,
+  ButtonStyled
 } from './components';
 import GlobalStyle from './styles/styles';
 
@@ -24,7 +25,7 @@ function App() {
         title="I love Mochi"
         description="Mochi is amazing company"
       /> */}
-      <ButtonPill />
+      <ButtonStyled />
     </ThemeProvider>
   );
 }
