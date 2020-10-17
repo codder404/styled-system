@@ -17,9 +17,9 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
-      {/* <Text /> */}
-      {/* <Button /> */}
-      {/* <ButtonProps /> */}
+      <Text />
+      <Button />
+      <ButtonProps />
       {/* <Card
         image="https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg"
         title="I love Mochi"
