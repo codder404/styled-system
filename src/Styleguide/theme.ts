@@ -2,15 +2,24 @@ import { Theme } from 'styled-system';
 
 import { colors } from './colors';
 import { space } from './space';
-
-export const breakpoints: string[] = ['319px', '424px', '767px', '1023px'];
+import { fontSizes } from './font-sizes';
+import { radii } from './radii';
+import { breakpoints } from './breakpoints';
 
 export const defaultTheme: Theme = {
   space: {
-    ...space
+    ...space,
   },
-  breakpoints,
+  breakpoints: {
+    ...breakpoints,
+  },
   colors: {
-    ...colors
+    ...colors,
+  },
+  fontSizes: {
+    ...fontSizes,
+  },
+  radii: {
+    ...radii,
   },
 };

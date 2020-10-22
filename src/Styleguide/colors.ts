@@ -20,4 +20,4 @@ export const colors: ThemeColors = {
   text: '#000',
   disabled: '#f5222d',
   border: '#423EA2',
-}
+};
